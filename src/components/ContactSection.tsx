@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Mail, Phone, MapPin, Linkedin, Github, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Github, Instagram } from 'lucide-react';
 export const ContactSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
   useEffect(() => {
@@ -61,45 +61,45 @@ export const ContactSection = () => {
             </form>
           </div>
           <div>
-            <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+            <h3 className="text-2xl font-bold mb-6">Informações de contato</h3>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <Mail className="text-blue-600 mt-1" size={20} />
                 <div>
                   <h4 className="font-bold">Email</h4>
                   <a href="mailto:hello@janedeveloper.com" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    hello@janedeveloper.com
+                    rjrodrigosantos12@gmail.com
                   </a>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <Phone className="text-blue-600 mt-1" size={20} />
                 <div>
-                  <h4 className="font-bold">Phone</h4>
+                  <h4 className="font-bold">Telefone</h4>
                   <a href="tel:+1234567890" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    +1 (234) 567-890
+                    +55 (17) 99274-1290
                   </a>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <MapPin className="text-blue-600 mt-1" size={20} />
                 <div>
-                  <h4 className="font-bold">Location</h4>
-                  <p className="text-gray-600">San Francisco, California</p>
+                  <h4 className="font-bold">Localização</h4>
+                  <p className="text-gray-600">Olimpia, São Paulo</p>
                 </div>
               </div>
             </div>
             <div className="mt-12">
-              <h4 className="font-bold mb-4">Connect With Me</h4>
+              <h4 className="font-bold mb-4">Conecte-se comigo</h4>
               <div className="flex space-x-4">
-                <a href="#" className="p-3 bg-gray-100 text-gray-700 rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/rodrigo-s-santos/" className="p-3 bg-gray-100 text-gray-700 rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300" aria-label="LinkedIn" target='_blanck'>
                   <Linkedin size={20} />
                 </a>
-                <a href="#" className="p-3 bg-gray-100 text-gray-700 rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300" aria-label="GitHub">
+                <a href="https://github.com/FletisZi" className="p-3 bg-gray-100 text-gray-700 rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300" aria-label="GitHub" target='_blanck'>
                   <Github size={20} />
                 </a>
-                <a href="#" className="p-3 bg-gray-100 text-gray-700 rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300" aria-label="Twitter">
-                  <Twitter size={20} />
+                <a href="https://www.instagram.com/rodrig_japa/" className="p-3 bg-gray-100 text-gray-700 rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300" aria-label="Twitter" target='_blanck'>
+                  <Instagram size={20} />
                 </a>
               </div>
             </div>
