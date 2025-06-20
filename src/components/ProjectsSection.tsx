@@ -33,7 +33,7 @@ export const ProjectsSection = () => {
     id: 3,
     title: 'Convite casamento',
     description: 'Para um grande dia requer um grande convite.',
-    image: 'https://ferduda.vercel.app/',
+    image: '/ferduda.png ',
     tags: ['React', 'Next.js', 'Vercel'],
     liveLink: 'https://ferduda.vercel.app/',
     githubLink: 'https://github.com/FletisZi/fereduda'
@@ -47,18 +47,10 @@ export const ProjectsSection = () => {
     githubLink: 'https://github.com/FletisZi/Ampm-V2'
   }, {
     id: 5,
-    title: 'Fitness Tracker',
+    title: 'BEHANCE',
     description: 'A comprehensive fitness tracking application with workout plans, progress monitoring, and nutrition guidance.',
     image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
     tags: ['React Native', 'GraphQL', 'AWS', 'Chart.js'],
-    liveLink: '#',
-    githubLink: '#'
-  }, {
-    id: 6,
-    title: 'Recipe Sharing Platform',
-    description: 'A community-driven recipe sharing platform with search functionality, ratings, and user profiles.',
-    image: 'https://images.unsplash.com/photo-1556910103-1c02745adc8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-    tags: ['React', 'Firebase', 'Algolia', 'Styled Components'],
     liveLink: '#',
     githubLink: '#'
   }];
